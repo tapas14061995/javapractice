@@ -24,12 +24,13 @@ class B extends A
     public B(int n)
     {
         this();
-        System.out.println("in parameterised B");
+        System.out.println("in the parameterised B");
     }
 }
 
 public class Super {
     public static void main(String[] args){
+
         B obj = new B(5);
     }
 }
