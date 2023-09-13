@@ -8,6 +8,7 @@ public class Demo2 {
         double r5=obj.power(5, 3);
 
         System.out.println(r1+" "+r2+" "+r3+" "+r4+" "+r5);
+        System.out.println("Added a new line");
 
     }
     
