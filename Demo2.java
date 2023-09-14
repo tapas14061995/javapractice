@@ -6,8 +6,9 @@ public class Demo2 {
         int r3=obj.mul(5, 8);
         int r4=obj.mul(66, 6);
         double r5=obj.power(5, 3);
+        double r6 = obj.sqroot(36);
 
-        System.out.println(r1+" "+r2+" "+r3+" "+r4+" "+r5);
+        System.out.println(r1+" "+r2+" "+r3+" "+r4+" "+r5+" "+r6);
         System.out.println("Added a new line");
 
     }
